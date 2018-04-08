@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EC4443F2D0D9AFED8430F5148A49802 /* Pods-PlatziMusic-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D812A9612AA632B2BCDBBB152D12A9C1 /* Pods-PlatziMusic-tvOSTests-dummy.m */; };
+		1E8AAE7F2095F6207CAAF351044C13B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		93DFBA5B1AC821885D999BE5BD78A113 /* Pods-PlatziMusicTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2009DF3581D17BC7601177F9EDE30E1F /* Pods-PlatziMusicTests-dummy.m */; };
+		CC8CDFF1AD054E7E152F2063B1C2091A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EDA85AC7ECBFF96B739121572A47A51F /* Pods-PlatziMusic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B9DC3F29A673AE3A96C68D5DAA5A64 /* Pods-PlatziMusic-dummy.m */; };
+		F08F93BA743790CDD9CBAE798B3A454C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		112C6FE1BC50B148F9BE79329D10296D /* Pods-PlatziMusic-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlatziMusic-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		11FF83C4F6E71E93361B367BF1F00BC8 /* libPods-PlatziMusicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PlatziMusicTests.a"; path = "libPods-PlatziMusicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		183A2BD7F106B457F6180583F022C4D9 /* Pods-PlatziMusicTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlatziMusicTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2009DF3581D17BC7601177F9EDE30E1F /* Pods-PlatziMusicTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlatziMusicTests-dummy.m"; sourceTree = "<group>"; };
+		3484D060FD7C6ABAF7E22936A7D32F17 /* libPods-PlatziMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PlatziMusic.a"; path = "libPods-PlatziMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B9DC3F29A673AE3A96C68D5DAA5A64 /* Pods-PlatziMusic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlatziMusic-dummy.m"; sourceTree = "<group>"; };
+		5068F82A47FBF06587737F5B8B649A06 /* Pods-PlatziMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlatziMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		5848D60AEE119F51F484ACFD2964DFC5 /* libPods-PlatziMusic-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PlatziMusic-tvOSTests.a"; path = "libPods-PlatziMusic-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E067ACBCC6479AF1DFC0E622A51E713 /* Pods-PlatziMusic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlatziMusic-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81079A312BAE8ED6D2D182B31524EBAE /* Pods-PlatziMusic-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlatziMusic-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		82E70A2C3F2F1F18CCC38E7E06955F5C /* Pods-PlatziMusic-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlatziMusic-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		8D89F2642FD6D1F5C8E577411E26093E /* Pods-PlatziMusic-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlatziMusic-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		985BFA79B522A9BED43F0D13FCB02437 /* Pods-PlatziMusicTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlatziMusicTests-frameworks.sh"; sourceTree = "<group>"; };
+		9E96EDCE18FC667EBAA30720404A96AE /* Pods-PlatziMusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlatziMusicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C7E33DF867A00C4B192C712197A038 /* Pods-PlatziMusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlatziMusicTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3556CECD37FAD371D476FA405CAAB14 /* Pods-PlatziMusic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlatziMusic-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2EB924B549E2A5A7DDB6B1B8FF35229 /* Pods-PlatziMusic-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlatziMusic-frameworks.sh"; sourceTree = "<group>"; };
+		D812A9612AA632B2BCDBBB152D12A9C1 /* Pods-PlatziMusic-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlatziMusic-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		D98611A8A99E57EE0B09AF552B3B08F0 /* Pods-PlatziMusic-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlatziMusic-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		DE3E3AD4C3F94280A1B015A6410661A2 /* Pods-PlatziMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlatziMusic.release.xcconfig"; sourceTree = "<group>"; };
+		E79DF8DF21C5737EC6EF4950F5B540EA /* Pods-PlatziMusicTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlatziMusicTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F06C809796B140F901F11B4EB8B2E24F /* Pods-PlatziMusicTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlatziMusicTests-resources.sh"; sourceTree = "<group>"; };
+		FD8C842F7C9A6DBA3CFF17A5ACB00752 /* Pods-PlatziMusic-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlatziMusic-resources.sh"; sourceTree = "<group>"; };
+		FDFFEB3BA131B11B4AAC73236A136255 /* Pods-PlatziMusic-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlatziMusic-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A982113E2C180DAECA6F64476E371D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08F93BA743790CDD9CBAE798B3A454C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6F77A105D69D2D1DFDA96F50E23656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8CDFF1AD054E7E152F2063B1C2091A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09E878854B4127E4CD930F33A1D7A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8AAE7F2095F6207CAAF351044C13B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B3ACA05DDB5A8F84BF2DE7A3B40894E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3484D060FD7C6ABAF7E22936A7D32F17 /* libPods-PlatziMusic.a */,
+				5848D60AEE119F51F484ACFD2964DFC5 /* libPods-PlatziMusic-tvOSTests.a */,
+				11FF83C4F6E71E93361B367BF1F00BC8 /* libPods-PlatziMusicTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43C21AA808F9DED022AD43D42DD24FCC /* Pods-PlatziMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				E79DF8DF21C5737EC6EF4950F5B540EA /* Pods-PlatziMusicTests-acknowledgements.markdown */,
+				183A2BD7F106B457F6180583F022C4D9 /* Pods-PlatziMusicTests-acknowledgements.plist */,
+				2009DF3581D17BC7601177F9EDE30E1F /* Pods-PlatziMusicTests-dummy.m */,
+				985BFA79B522A9BED43F0D13FCB02437 /* Pods-PlatziMusicTests-frameworks.sh */,
+				F06C809796B140F901F11B4EB8B2E24F /* Pods-PlatziMusicTests-resources.sh */,
+				9E96EDCE18FC667EBAA30720404A96AE /* Pods-PlatziMusicTests.debug.xcconfig */,
+				A4C7E33DF867A00C4B192C712197A038 /* Pods-PlatziMusicTests.release.xcconfig */,
+			);
+			name = "Pods-PlatziMusicTests";
+			path = "Target Support Files/Pods-PlatziMusicTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3B3ACA05DDB5A8F84BF2DE7A3B40894E /* Products */,
+				FB81EE47500ABA0B7938D15DCDBA19D7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9337B9F9EACECBA4CF37E103DA7E172B /* Pods-PlatziMusic */ = {
+			isa = PBXGroup;
+			children = (
+				6E067ACBCC6479AF1DFC0E622A51E713 /* Pods-PlatziMusic-acknowledgements.markdown */,
+				B3556CECD37FAD371D476FA405CAAB14 /* Pods-PlatziMusic-acknowledgements.plist */,
+				37B9DC3F29A673AE3A96C68D5DAA5A64 /* Pods-PlatziMusic-dummy.m */,
+				C2EB924B549E2A5A7DDB6B1B8FF35229 /* Pods-PlatziMusic-frameworks.sh */,
+				FD8C842F7C9A6DBA3CFF17A5ACB00752 /* Pods-PlatziMusic-resources.sh */,
+				5068F82A47FBF06587737F5B8B649A06 /* Pods-PlatziMusic.debug.xcconfig */,
+				DE3E3AD4C3F94280A1B015A6410661A2 /* Pods-PlatziMusic.release.xcconfig */,
+			);
+			name = "Pods-PlatziMusic";
+			path = "Target Support Files/Pods-PlatziMusic";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCC7B424DC7719222CF6B383371D3FF1 /* Pods-PlatziMusic-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				81079A312BAE8ED6D2D182B31524EBAE /* Pods-PlatziMusic-tvOSTests-acknowledgements.markdown */,
+				112C6FE1BC50B148F9BE79329D10296D /* Pods-PlatziMusic-tvOSTests-acknowledgements.plist */,
+				D812A9612AA632B2BCDBBB152D12A9C1 /* Pods-PlatziMusic-tvOSTests-dummy.m */,
+				82E70A2C3F2F1F18CCC38E7E06955F5C /* Pods-PlatziMusic-tvOSTests-frameworks.sh */,
+				D98611A8A99E57EE0B09AF552B3B08F0 /* Pods-PlatziMusic-tvOSTests-resources.sh */,
+				FDFFEB3BA131B11B4AAC73236A136255 /* Pods-PlatziMusic-tvOSTests.debug.xcconfig */,
+				8D89F2642FD6D1F5C8E577411E26093E /* Pods-PlatziMusic-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-PlatziMusic-tvOSTests";
+			path = "Target Support Files/Pods-PlatziMusic-tvOSTests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FB81EE47500ABA0B7938D15DCDBA19D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9337B9F9EACECBA4CF37E103DA7E172B /* Pods-PlatziMusic */,
+				BCC7B424DC7719222CF6B383371D3FF1 /* Pods-PlatziMusic-tvOSTests */,
+				43C21AA808F9DED022AD43D42DD24FCC /* Pods-PlatziMusicTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1567332C6179F219DB030504CE3E6A36 /* Pods-PlatziMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9427FAE5BB62272AEF88A3D1D149E8BF /* Build configuration list for PBXNativeTarget "Pods-PlatziMusicTests" */;
+			buildPhases = (
+				D4B32D1202E209A30E08A7CF87CFA10C /* Sources */,
+				1A982113E2C180DAECA6F64476E371D3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PlatziMusicTests";
+			productName = "Pods-PlatziMusicTests";
+			productReference = 11FF83C4F6E71E93361B367BF1F00BC8 /* libPods-PlatziMusicTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		16D2FEAE6650C01FAED44A4CC6653D5F /* Pods-PlatziMusic-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1083F1495697DF02098D2061FA28BB /* Build configuration list for PBXNativeTarget "Pods-PlatziMusic-tvOSTests" */;
+			buildPhases = (
+				CE47C348A87AE71D7AA318CC2EF03B62 /* Sources */,
+				E09E878854B4127E4CD930F33A1D7A4B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PlatziMusic-tvOSTests";
+			productName = "Pods-PlatziMusic-tvOSTests";
+			productReference = 5848D60AEE119F51F484ACFD2964DFC5 /* libPods-PlatziMusic-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		73DC45E4EA93D0F79B4617A5112E315D /* Pods-PlatziMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510199C649F4B81FC125158D1F33301D /* Build configuration list for PBXNativeTarget "Pods-PlatziMusic" */;
+			buildPhases = (
+				E13F80572E60C3FCC20FC71C8256C025 /* Sources */,
+				9E6F77A105D69D2D1DFDA96F50E23656 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PlatziMusic";
+			productName = "Pods-PlatziMusic";
+			productReference = 3484D060FD7C6ABAF7E22936A7D32F17 /* libPods-PlatziMusic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3B3ACA05DDB5A8F84BF2DE7A3B40894E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73DC45E4EA93D0F79B4617A5112E315D /* Pods-PlatziMusic */,
+				16D2FEAE6650C01FAED44A4CC6653D5F /* Pods-PlatziMusic-tvOSTests */,
+				1567332C6179F219DB030504CE3E6A36 /* Pods-PlatziMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE47C348A87AE71D7AA318CC2EF03B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC4443F2D0D9AFED8430F5148A49802 /* Pods-PlatziMusic-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B32D1202E209A30E08A7CF87CFA10C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DFBA5B1AC821885D999BE5BD78A113 /* Pods-PlatziMusicTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13F80572E60C3FCC20FC71C8256C025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA85AC7ECBFF96B739121572A47A51F /* Pods-PlatziMusic-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0732D28600495F6583148182B50438DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D89F2642FD6D1F5C8E577411E26093E /* Pods-PlatziMusic-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F54FC53D82910390B05C6F3CEC4CBBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFFEB3BA131B11B4AAC73236A136255 /* Pods-PlatziMusic-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ED1445CD182CA41522E9BB323CB870E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3E3AD4C3F94280A1B015A6410661A2 /* Pods-PlatziMusic.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		505F761CFAF2636480B93BA6DBD762AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C7E33DF867A00C4B192C712197A038 /* Pods-PlatziMusicTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		551ECB0100551FC1714DE1F7D2811FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E96EDCE18FC667EBAA30720404A96AE /* Pods-PlatziMusicTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EE1638808B89BC570E845E79D56D4CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5068F82A47FBF06587737F5B8B649A06 /* Pods-PlatziMusic.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1083F1495697DF02098D2061FA28BB /* Build configuration list for PBXNativeTarget "Pods-PlatziMusic-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F54FC53D82910390B05C6F3CEC4CBBF /* Debug */,
+				0732D28600495F6583148182B50438DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510199C649F4B81FC125158D1F33301D /* Build configuration list for PBXNativeTarget "Pods-PlatziMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1638808B89BC570E845E79D56D4CBB /* Debug */,
+				3ED1445CD182CA41522E9BB323CB870E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9427FAE5BB62272AEF88A3D1D149E8BF /* Build configuration list for PBXNativeTarget "Pods-PlatziMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551ECB0100551FC1714DE1F7D2811FC5 /* Debug */,
+				505F761CFAF2636480B93BA6DBD762AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
